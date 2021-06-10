@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Section(props) {
     console.log(props)
     return (
-        <Container bgImage={"props.backgroundImg"}>
+        <Container bgImage={props.backgroundImg}>
             <ItemText>
                 <h1>{props.title}</h1>
                 <p>{props.description}</p>
